@@ -1,0 +1,82 @@
+Saloni Sharma  
+Email: salonisharmaa16@gmail.com  
+LinkedIn: https://www.linkedin.com/in/saloni-sharma1/  
+GitHub: https://github.com/Salonisharmaaa    
+
+## Education  
+**B.Tech, Computer Science & Engineering**  
+Malaviya National Institute of Technology Jaipur (MNITJ) | **June 2026** | CGPA: 7.91/10  
+
+**RBSE – XII**  
+Swami Vivekanand Vidya Mandir | 2021 | 99.4%  
+
+**RBSE – X**  
+Swami Vivekanand Vidya Mandir | 2019 | 92.67%  
+
+---
+
+## Technical Skills  
+- **Programming Languages:** C/C++, Python (for ML/DL tasks), SQL (Basic)  
+- **Web Development:** HTML5, CSS3, JavaScript  
+- **Utilities:** Linux Shell Utilities (Basic), Git, LaTeX, Canva, Figma, Doxygen  
+- **Artificial Intelligence & Machine Learning:**  
+  - Machine Learning, Deep Learning, Computer Vision  
+  - Keras, TensorFlow, PyTorch, OpenCV  
+  - Model Training, Data Preprocessing, Feature Engineering  
+- **Data Science & Analytics:** Data visualization, Data cleaning, Tableau, SQL  
+- **Cyber Security:** CVE analysis, exploiting vulnerable machines, Kali Linux tools (learning)  
+- **Soft Skills:** Leadership, Event Management, Teamwork, Self-motivated, Fast Learner  
+
+---
+
+## Work Experience  
+### Cyber-Security Intern  
+**CSE Department, MNITJ** | Jaipur, India | Dec’23 - Feb’24  
+- Contributed to CVE analysis and executed exploits using Virtual Machines (VMs).  
+- Prepared datasets by generating differences between patched and unpatched Linux kernels.  
+- **Tech Stack Used:** Python, Doxygen, Pyvis  
+
+---
+
+## Positions of Responsibility  
+### **Entrepreneurship Development Cell, MNIT Jaipur** | Jan’23 - Jun’24  
+- Worked with a team of 30 and led junior year students.  
+- Participated in multiple startup pitching and consultancy competitions.  
+- Organized networking events and hosted case study competitions.  
+- Finalist in **Startup Concurso (conducted by E-Cell IIT BHU)** and **Pitcher Perfect (conducted by IIM Bangalore)** competitions.  
+
+---
+
+## Projects (Focused on AI/ML)  
+### **Iris Detection Control Model - VISIONARY**  
+- Designed a software model enabling mouse control using **iris movements** for accessibility purposes.  
+- **Tech Stack:** Python, MediaPipe, OpenCV  
+
+### **Movie Recommender System**  
+[GitHub](https://github.com/Salonisharmaaa/movie-recommender-system.git)  
+- **AI-powered** content-based recommender system suggesting movies based on previous selections.  
+- **Tech Stack:** Python, Pandas, Streamlit, Pickle, Scikit-learn  
+
+### **CryptTool**  
+[GitHub](https://github.com/Salonisharmaaa/CryptanalysisTool.git)  
+- Developed a GUI where users can input an encrypted message and select a decryption technique.  
+- **Tech Stack:** Python, Streamlit  
+
+### **Netflix & Spotify Clone**  
+- Developed pixel-perfect clones of Netflix and Spotify UI with interactive elements.  
+- **Tech Stack:** HTML, CSS, JavaScript  
+
+---
+
+## Achievements  
+- **LeetCode Rating:** 1,443 | **500+ solved questions** on competitive programming platforms.  
+- **Competitive Programming Profiles:**  
+  - LeetCode: [Profile](https://leetcode.com/u/Salonisharmaa/)  
+  - CodeForces: [Profile](https://codeforces.com/profile/salonisharmaa)  
+  - GeeksForGeeks: [Profile](https://www.geeksforgeeks.org/user/salonishh2yz/)  
+
+---
+
+## Areas of Interest  
+ **Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, AI for Accessibility**  
+

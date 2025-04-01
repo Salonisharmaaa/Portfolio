@@ -1,0 +1,171 @@
+{
+  "personal": {
+    "name": "Saloni Sharma",
+    "title": "Computer Science Student",
+    "institution": "MNIT Jaipur",
+    "graduation": "June 2026",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/saloni-sharma1/"
+      },
+      {
+        "network": "GitHub",
+        "url": "https://github.com/Salonisharmaaa"
+      },
+      {
+        "network": "LeetCode",
+        "url": "https://leetcode.com/u/Salonisharmaa/",
+        "details": "Rating: 1,443, 500+ problems solved"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "Malaviya National Institute of Technology Jaipur (MNITJ)",
+      "degree": "B.Tech in Computer Science & Engineering",
+      "timeline": "Expected June 2026",
+      "score": "7.91/10 CGPA",
+      "courses": [
+        "Machine Learning",
+        "Deep Learning",
+        "Computer Vision",
+        "Cybersecurity",
+        "Data Structures and Algorithms",
+        "Operationg System",
+        "Datadase Managemrnt System",
+        "Computer Networks",
+        "Software Engineering",
+        "cryptography and Network Security"
+      ]
+    },
+    {
+      "institution": "Swami Vivekanand Vidya Mandir",
+      "degree": "RBSE XII (Senior Secondary)",
+      "year": "2021",
+      "score": "99.4%"
+    },
+    {
+      "degree": "RBSE X (Secondary)",
+      "year": "2019",
+      "score": "92.67%"
+    }
+  ],
+  "technical_skills": {
+    "programming_languages": [
+      "C/C++ (Proficient)",
+      "Python (For ML/DL tasks)",
+      "SQL (Basic)"
+    ],
+    "ai_ml": {
+      "frameworks": ["TensorFlow", "PyTorch", "Keras"],
+      "computer_vision": ["OpenCV", "MediaPipe"],
+      "skills": [
+        "Model Training",
+        "Data Preprocessing",
+        "Feature Engineering"
+      ]
+    },
+    "web_development": ["HTML5", "CSS3", "JavaScript"],
+    "tools": {
+      "version_control": "Git",
+      "documentation": ["LaTeX", "Doxygen"],
+      "design": ["Figma", "Canva"],
+      "security": "Kali Linux tools"
+    }
+  },
+  "work_experience": [
+    {
+      "role": "Cyber-Security Intern",
+      "company": "CSE Department, MNITJ",
+      "duration": "December 2023 - February 2024",
+      "responsibilities": [
+        "Conducted CVE analysis and vulnerability assessments",
+        "Executed exploits using Virtual Machines (VMs)",
+        "Created datasets by comparing patched/unpatched Linux kernels"
+      ],
+      "tools": ["Python", "Doxygen", "Pyvis"]
+    }
+  ],
+  "positions_of_responsibility": [
+    {
+      "organization": "Entrepreneurship Development Cell, MNIT Jaipur",
+      "role": "Core Team Member",
+      "duration": "January 2023 - June 2024",
+      "achievements": [
+        "Led a team of 30 junior students",
+        "Organized startup pitching competitions and networking events",
+        {
+          "competitions": [
+            "Startup Concurso (E-Cell IIT BHU)",
+            "Pitcher Perfect (IIM Bangalore)"
+          ],
+          "status": "Finalist"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "VISIONARY - Iris Detection Control Model",
+      "description": "Developed an accessibility tool that enables computer mouse control through iris movements",
+      "technologies": ["Python", "MediaPipe", "OpenCV"],
+      "features": [
+        "Real-time iris tracking",
+        "Customizable control sensitivity"
+      ]
+    },
+    {
+      "name": "Movie Recommender System",
+      "description": "AI-powered content-based recommendation system that suggests movies based on user preferences",
+      "technologies": ["Python", "Streamlit", "Scikit-learn", "Pandas"],
+      "github": "https://github.com/Salonisharmaaa/movie-recommender-system"
+    },
+    {
+      "name": "CryptTool",
+      "description": "GUI application for cryptographic analysis with multiple decryption techniques",
+      "technologies": ["Python", "Streamlit"],
+      "github": "https://github.com/Salonisharmaaa/CryptanalysisTool"
+    },
+    {
+      "name": "Netflix & Spotify UI Clones",
+      "description": "Pixel-perfect interactive clones of popular streaming platforms",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "features": [
+        "Responsive design",
+        "Dynamic content loading"
+      ]
+    }
+  ],
+  "achievements": {
+    "coding_profiles": [
+      {
+        "platform": "LeetCode",
+        "details": "1,443 rating (500+ problems)"
+      },
+      {
+        "platform": "CodeForces",
+        "status": "Active competitor"
+      },
+      {
+        "platform": "GeeksForGeeks",
+        "status": "Regular contributor"
+      },
+      {
+        "platform": "CodeChef",
+        "status": "Participant in coding contests"
+      }
+    ],
+    "competitions": [
+      "Finalist in national-level startup competitions",
+      "Case study challenge participant"
+    ]
+  },
+  "interests": [
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Computer Vision",
+    "AI for Accessibility",
+    "Cybersecurity"
+  ]
+}

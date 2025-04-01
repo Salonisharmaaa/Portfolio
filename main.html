@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saloni's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/b9327ef4d7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="assets/logo.png" type="image/png">
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <img src="assets/logo.png" alt="logo" />
+            <h3>Saloni's Portfolio</h3>
+          </div>
+
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+          <p>AI/ML Enthusiast</p>
+          <h1>Hi, I'm <span>Saloni</span></h1>
+        </div>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/saloni-sharma1/" target="_blank"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href="https://github.com/Salonisharmaaa" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="#form-start" target="_blank"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <!-- --------------about--------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col1">
+            <img src="assets/saloni2.jpg" alt="saloni's image" />
+          </div>
+          <div class="about-col2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I am pursuing B.Tech in Computer Science and Technology from
+              Malaviya National Institute of Technology(MNIT), Jaipur. <br />
+              I'm a tech enthusiast, driven by innovation, and thrive for new
+              challenges. In terms of Technology, I'm particularly drawn toward
+              AI/ML. Besides this, I have been actively enhancing my web
+              development skills through hands-on projects, such as website
+              cloning. Additionally, I have worked on several data analysis
+              projects and also have tried exploring Cyber Security.<br />
+              As a collaborative team player with a passion for problem-solving,
+              I thrive in challenging environments. Beyond my technical
+              expertise, I enjoy binge-watching shows and exploring my
+              imagination through fantasy genres.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('exta')">
+                Extra-Curricular
+              </p>
+              <!-- <p class="tab-links">Experience</p> -->
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Languages</span> <br />
+                  C/C++, Python (for ML/DL tasks), SQL (Basic)
+                </li>
+                <li>
+                  <span>Web Development</span> <br />HTML5, CSS3, JavaScript
+                </li>
+                <li>
+                  <span>Utilities</span> <br />
+                  Linux Shell Utilities (Basic), Git, LaTeX, Canva,
+                  Figma,Doxygen
+                </li>
+                <li>
+                  <span>Data Science</span> <br />
+                  Machine Learning, Numpy, Pandas, streamlit, OpenCV
+                </li>
+                <li>
+                  <span> Data analytics</span> <br />Data visualization, Data
+                  cleaning, Tableau, SQL
+                </li>
+                <li>
+                  <span>Cyber Security</span> <br />CVE analysis, exploiting the
+                  Vulnerable Machines, Tools in Kali Linux (learning)
+                </li>
+                <li>
+                  <span> Soft Skills</span> <br />
+                  Leadership, Event Management, Designing,Team player, self
+                  motivated, fast learner
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span class="span"
+                    ><span>B.Tech, Computer Science and Technology</span>
+                    <span>2022 - Currrent</span></span
+                  >
+                  <br />Malaviya National Institute of Technology
+                </li>
+                <li>
+                  <span class="span"
+                    ><span>Class XII</span> <span>2020 - 2021</span></span
+                  >
+                  <br />Swami Vivekanand Vidya Mandir
+                </li>
+                <li>
+                  <span class="span"
+                    ><span>Class X</span> <span>2018 - 2019</span></span
+                  >
+                  <br />Swami Vivekanand Vidya Mandir
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="exta">
+              <ul>
+                <li>
+                  <span class="span"
+                    ><span>Executive</span> <span>Jan 23 - Jun 24</span></span
+                  >
+                  <br />Entrepreneurship Development Cell, MNIT Jaipur
+                </li>
+                <li>
+                  <span class="span"
+                    ><span>Volunteer</span> <span>Dec 22 - Feb 2023</span></span
+                  >
+                  <br />Blitzschlag - Cultural fest MNIT Jaipur
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------------projects--------------- -->
+    <div id="Projects">
+      <div class="container">
+        <div class="sub-title">My Work</div>
+        <div class="work-list">
+          <div class="work">
+            <img src="assets/machinelearning.jpg" alt="ml" />
+            <div class="layer">
+              <h3>Movie Recommender System</h3>
+              <p>
+                A Content-Based Movie Recommender System suggests movies to
+                users based on the features of previously watched or selected
+                movies. <br />
+                Built with Python, Pandas, and Scikit-learn, and deployed with
+                Streamlit for an interactive UI. Trained on TMDB dataset.
+              </p>
+              <a
+                href="https://github.com/Salonisharmaaa/movie-recommender-system"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="assets/cryptography.jpg" alt="security" />
+            <div class="layer">
+              <h3>CryptTool</h3>
+              <p>
+                Developed a Graphical User Interface where user can give an
+                encrypted message and select a decryption technique to get the
+                plain Text. <br />
+                Implemented using python and for giving an graphical user
+                interface streamlit was used.
+              </p>
+              <a href="https://github.com/Salonisharmaaa/CryptanalysisTool"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="assets/frontend-development.avif" alt="development" />
+            <div class="layer">
+              <h3>Front-end of E-Commerce websites</h3>
+              <p>
+                Developed a pixel-perfect clone of Netflix and Spotify,
+                replicating their UI using HTML, CSS, and JavaScript. <br />
+                Added elements like hover effects, animations, and media
+                controls to enhance user experience. Used Flexbox, Grid, and CSS
+                animations to achieve a professional look.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/Salonisharmaaa?tab=repositories" class="btn"
+          >See more</a
+        >
+      </div>
+    </div>
+
+    <!-- --------------contact--------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>salonisharmaa16@gmail.com
+            </p>
+            <p>
+              <i class="fa-solid fa-phone"></i>Not shown now due to privacy
+              concerns
+            </p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/saloni-sharma1/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/Salonisharmaaa"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="#form-start"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <a href="assets/My_Resume.pdf" download class="btn btn2"
+              >Download Resume</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input
+                id="form-start"
+                type="text"
+                name="Name"
+                placeholder="Your Name"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>copyright &copy; 2025 Saloni Sharma. All rights reserved.</p>
+      </div>
+    </div>
+
+    <script src="https://cdn.botpress.cloud/webchat/v2.3/inject.js"></script>
+    <script src="https://files.bpcontent.cloud/2025/04/01/18/20250401181311-5HOJAET1.js"></script>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (let tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (let tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+
+        document.getElementById(tabname).classList.add("active-tab");
+        event.currentTarget.classList.add("active-link");
+      }
+
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+
+      document
+        .querySelector(".fa-envelope")
+        .addEventListener("click", function (e) {
+          e.preventDefault();
+          const nameInput = document.getElementById("form-start");
+          nameInput.scrollIntoView({ behavior: "smooth" });
+          nameInput.focus();
+        });
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwc5d9qdkcBKFXNld5bTu6pxkBT6UJijn1dXCGOea596H7kPeChJvovXSL8PfIqOfgl/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent sucessfully!";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
