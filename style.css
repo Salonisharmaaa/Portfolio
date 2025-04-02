@@ -104,6 +104,12 @@ nav ul li a:hover::after{
     color: #c5832b;
 }
 
+.sub-text{
+    font-size: 15px;
+    margin-top: 20px;
+
+}
+
 /* --------------about--------------- */
 #about{
     padding: 80px 0;
@@ -365,6 +371,7 @@ nav .fa-solid{
         font-size: 30px;
         
     }
+    
     nav .fa-solid{
         display: block;
         font-size: 25px;
@@ -429,6 +436,26 @@ nav .fa-solid{
 
     .copyright{
         font-size: 14px;
+    }
+
+    #header .social-icons{
+        margin-top: 15px;
+    }
+    .sub-text{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-height:715px){
+    #header .social-icons{
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    #header .social-icons a{
+        height: 40px;
+        width: 40px;
     }
 }
 
